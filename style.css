@@ -38,6 +38,7 @@
 .navbar ul li a{
     display: inline-block;
     color:rgb(236, 233, 233);
+    font-size: 1.2em;
     font-weight: 600;
     text-decoration: none;
     margin-left: 50px;
@@ -66,7 +67,7 @@
 }
 
 .content .info h2 span{
-    color: rgb(244, 244, 121);
+    color:rgb(243, 243, 63);
     font-size: 1.2em;
     font-weight: 900;
 }
@@ -78,10 +79,39 @@
     display: inline-block;
     margin-top: 30px;
     padding: 8px 20px;
-    background: rgb(244, 244, 121);
+    background: rgb(243, 243, 63);
     color:black;
     border-radius: 20px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight:900;
     letter-spacing: 1px;
+}
+
+.content img{
+    width:900px;
+    display: flex;
+    padding-right: 100px;
+}
+
+.items{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.items li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.items li:hover{
+    transform: translateY(-15px);
+}
+
+.items li img{
+    max-width: 100px;
 }
