@@ -12,14 +12,12 @@
     font-family: sans-serif;
 }
 .navbar{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    padding: 20px 80px;
+    width:86%;
     display: flex;
-    justify-content: space-between;
+    margin:auto;
+    padding: 50px 0;
     align-items: center;
+    justify-content: space-between;
 }
 .logo{
     position: relative;
@@ -33,6 +31,8 @@
 
 .navbar ul li{
     list-style: none;
+    display:inline-block;
+    padding: 10px 16px;
 }
 
 .navbar ul li a{
@@ -41,4 +41,14 @@
     font-weight: 600;
     text-decoration: none;
     margin-left: 50px;
+    margin-top: -3%;
+    transition: .4s ease;
 }
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+    color:aliceblue;
+    
+}
+
