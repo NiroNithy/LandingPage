@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div class="hero">
         <div class="navbar">
           <img src="image/logo1.png" class="logo">
@@ -38,13 +39,13 @@
             <a href="#">Learn More</a>
         </div>
         <div class="image">
-            <img  src="image/briyani1.png" class="cooldrink">
+            <img  src="image/briyani.png" class="briyani">
         </div>
         </div>
         <ul class="items">
-            <li><img src="image/cooldrink.png"></li>
-            <li><img src="image/noodles.png"></li>
-            <li><img src="image/fish-fry.png"></li>
+            <li><img src="image/briyani.png" onclick="imgSlider('image/briyani.png')"></li>
+            <li><img src="image/noodle.png" onclick="imgSlider('image/noodle.png')"></li>
+            <li><img src="image/pizza.png" onclick="imgSlider('image/pizza.png')"></li>
         </ul>
         <div class="icons">
             <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -53,5 +54,10 @@
         </div>
   </div>
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script type="text/javascript">
+    function imgSlider(item){
+       document.querySelector('.briyani').src=item;
+    }
+  </script>
 </body>
 </html>
