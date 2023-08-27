@@ -44,11 +44,44 @@
     margin-top: -3%;
     transition: .4s ease;
 }
-
-.info{
-    margin-left: 7%;
-    margin-top: 6%;
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .info{
+    position: relative;
+    max-width: 600px;
     color:aliceblue;
-    
+    margin-left: 100px;
 }
 
+.content .info h2{
+    color: gainsboro;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight:600;
+}
+
+.content .info h2 span{
+    color: rgb(244, 244, 121);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .info p{
+    color: rgb(163, 160, 160);
+}
+
+.content .info a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 20px;
+    background: rgb(244, 244, 121);
+    color:black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
