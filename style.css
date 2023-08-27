@@ -45,6 +45,9 @@
     margin-top: -3%;
     transition: .4s ease;
 }
+.nav_item a:hover{
+    color:rgb(243, 243, 63);
+}
 .content{
     position: relative;
     width: 100%;
